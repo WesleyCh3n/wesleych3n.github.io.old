@@ -23,8 +23,8 @@ url                      : https://wesleych3n.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : wesleych3n/wesleych3n.github.io
 twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+github_username: wesleych3n
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
