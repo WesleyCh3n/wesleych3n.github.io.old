@@ -24,7 +24,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : wesleych3n/wesleych3n.github.io
 twitter_username: username
 github_username: wesleych3n
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: "default"
 search: true
 
 # Build settings

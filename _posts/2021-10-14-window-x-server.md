@@ -11,6 +11,7 @@ toc_label: "Outline"
 toc_icon: "box-open"
 ---
 
+# Installation
 ## Install VcXsrv
 
 ```powershell
