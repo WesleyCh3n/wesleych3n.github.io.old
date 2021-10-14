@@ -17,7 +17,7 @@ This is a note that I found out Microsoft PowerShell can act like Bash/Zsh which
 I much familiar with. Because of the work, pretty much whole operating system
 move to windows. It is so much pain to work without using any shell. The main
 reason is that I so much used to use (neo)vim as my code editor. But luckily
-(neo)vim built for windows (pew~). Ok, back to the title, this is a step by step
+(neo)vim built for windows (phew~). Ok, back to the title, this is a step by step
 note that I dig into PowerShell and Windows.
 
 - Create `$PROFILE` for PowerShell if not exist (like `.bashrc` or `.zshrc`)
