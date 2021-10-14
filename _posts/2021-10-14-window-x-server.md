@@ -6,6 +6,10 @@ categories:
 tags:
   - powershell
   - x server
+excerpt: "This post should [...]"
+header:
+  overlay_image: /assets/images/header-vcxsrv.jpg
+  overlay_filter: 0.5
 toc: true
 toc_label: "Outline"
 toc_icon: "box-open"
