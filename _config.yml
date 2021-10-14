@@ -63,7 +63,7 @@ plugins:
 author:
   name   : "WesleyCh3n"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Engineer, cat lover, cardist"
+  bio    : "NTU BME MS. Programmer. ML Lover. Cat Lover."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
