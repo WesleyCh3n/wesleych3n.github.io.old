@@ -16,7 +16,7 @@
 title                    : "Wesley's Blog"
 logo: "/assets/images/logo.png"
 header:
-  overlay_color: "#333"
+  image: /assets/images/header.jpg
 email: wesley.ch3n.0530@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
