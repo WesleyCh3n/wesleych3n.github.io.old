@@ -23,73 +23,72 @@ note that I dig into PowerShell and Windows.
 - Create `$PROFILE` for PowerShell if not exist (like `.bashrc` or `.zshrc`)
 
     1. Test if Profile exist
-    ```powershell
-    Test-Path $PROFILE
-    ```
+        ```powershell
+        Test-Path $PROFILE
+        ```
     > ❗If return is false meaning there is NO profile found then jump to step 2. <br>
     > ❗If return is true meaning there IS profile found then jump to step 3.
 
     2. Create Profile
-    ```powershell
-    New-Item -Type File -Force $PROFILE
-    ```
+        ```powershell
+        New-Item -Type File -Force $PROFILE
+        ```
     > ⚠ (Caution) these will erase the exist profile with new empty one.
 
     3. Varify Profile path
-    ```powershell
-    echo $PROFILE
-    ```
+        ```powershell
+        echo $PROFILE
+        ```
     It normally locate in `~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1`
 
 - Install `oh-my-posh` Theme like powerlevel10k
 
     1. Installation
-    ```powershell
-    Install-Module oh-my-posh -Scope CurrentUser
-    ```
+        ```powershell
+        Install-Module oh-my-posh -Scope CurrentUser
+        ```
 
     2. List all themes and remember the name of theme you like
-    ```powershell
-    Get-PoshThemes -list
-    ```
+        ```powershell
+        Get-PoshThemes -list
+        ```
 
     3. Add theme to Profile
-    ```powershell
-    Set-PoshPrompt -Theme <Theme name>
-    ```
+        ```powershell
+        Set-PoshPrompt -Theme <Theme name>
+        ```
     Personally I use `honukai` for the simplicity.
 
     4. Source the Profile or restart the Terminal to take effect.
-    ```ps
-    . $PROFILE
-    ```
+        ```ps
+        . $PROFILE
+        ```
 
 - Install Autosuggestion
 
     1. Installation
-    ```ps
-    Install-Module PSReadLine
-    ```
+        ```ps
+        Install-Module PSReadLine
+        ```
 
     2. Add the following configurations
+        ```ps
+        # autocompletion
+        Import-Module PSReadLine
+        Set-PSReadLineOption -PredictionSource History
+        Set-PSReadLineKeyHandler -Chord Shift+Tab -Function AcceptSuggestion # Accept Suggestion
 
-    ```ps
-    # autocompletion
-    Import-Module PSReadLine
-    Set-PSReadLineOption -PredictionSource History
-    Set-PSReadLineKeyHandler -Chord Shift+Tab -Function AcceptSuggestion # Accept Suggestion
+        # Autocompletion for arrow keys
+        Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete # Iterate through autocompletion
+        Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+        Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 
-    # Autocompletion for arrow keys
-    Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete # Iterate through autocompletion
-    Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
-    Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-
-    # Bash like movement
-    Set-PSReadlineKeyHandler -Chord ctrl+d -Function ViExit
-    Set-PSReadlineKeyHandler -Chord ctrl+w -Function BackwardDeleteWord
-    Set-PSReadlineKeyHandler -Chord ctrl+e -Function EndOfLine
-    Set-PSReadlineKeyHandler -Chord ctrl+a -Function BeginningOfLine
-    ```
+        # Bash like movement
+        Set-PSReadlineKeyHandler -Chord ctrl+d -Function ViExit
+        Set-PSReadlineKeyHandler -Chord ctrl+w -Function BackwardDeleteWord
+        Set-PSReadlineKeyHandler -Chord ctrl+e -Function EndOfLine
+        Set-PSReadlineKeyHandler -Chord ctrl+a -Function BeginningOfLine
+        ```
 
 - Tab Completion [Ref](https://github.com/bergmeister/posh-cli)
 
