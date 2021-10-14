@@ -1,5 +1,5 @@
 ---
-title: "JavaScript learning note"
+title: "JavaScript Learning Note"
 date: 2021-10-12
 categories:
   - note
