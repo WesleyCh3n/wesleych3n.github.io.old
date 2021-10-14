@@ -6,7 +6,7 @@ categories:
 tags:
   - powershell
   - x server
-excerpt: "This post should [...]"
+excerpt: ""
 header:
   overlay_image: /assets/images/header-vcxsrv.jpg
   overlay_filter: 0.5
