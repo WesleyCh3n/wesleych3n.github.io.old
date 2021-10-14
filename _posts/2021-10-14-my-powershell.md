@@ -42,28 +42,35 @@ note that I dig into PowerShell and Windows.
     It normally locate in `~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1`
 
 - Install `oh-my-posh` Theme like powerlevel10k
+
     1. Installation
     ```powershell
     Install-Module oh-my-posh -Scope CurrentUser
     ```
+
     2. List all themes and remember the name of theme you like
     ```powershell
     Get-PoshThemes -list
     ```
+
     3. Add theme to Profile
     ```powershell
     Set-PoshPrompt -Theme <Theme name>
     ```
     Personally I use `honukai` for the simplicity.
+
     4. Source the Profile or restart the Terminal to take effect.
     ```ps
     . $PROFILE
     ```
-- Install autosuggestion
+
+- Install Autosuggestion
+
     1. Installation
     ```ps
     Install-Module PSReadLine
     ```
+
     2. Add the following configurations
     ```ps
     # autocompletion
@@ -82,3 +89,4 @@ note that I dig into PowerShell and Windows.
     Set-PSReadlineKeyHandler -Chord ctrl+e -Function EndOfLine
     Set-PSReadlineKeyHandler -Chord ctrl+a -Function BeginningOfLine
     ```
+
