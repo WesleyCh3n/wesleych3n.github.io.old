@@ -72,6 +72,7 @@ note that I dig into PowerShell and Windows.
     ```
 
     2. Add the following configurations
+
     ```ps
     # autocompletion
     Import-Module PSReadLine
