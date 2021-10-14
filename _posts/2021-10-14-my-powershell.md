@@ -60,19 +60,19 @@ note that I dig into PowerShell and Windows.
     Personally I use `honukai` for the simplicity.
 
     4. Source the Profile or restart the Terminal to take effect.
-        ```ps
+        ```powershell
         . $PROFILE
         ```
 
 - Install Autosuggestion
 
     1. Installation
-        ```ps
+        ```powershell
         Install-Module PSReadLine
         ```
 
     2. Add the following configurations
-        ```ps
+        ```powershell
         # autocompletion
         Import-Module PSReadLine
         Set-PSReadLineOption -PredictionSource History
