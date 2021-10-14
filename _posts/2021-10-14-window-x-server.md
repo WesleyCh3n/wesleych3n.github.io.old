@@ -24,10 +24,10 @@ scoop install vcxsrv
 xlaunch.exe
 ```
 
-![xlaunch-1]({{ site.url }}{{ site.baseurl }}/assets/images/xlauch-1.jpg)
-![xlaunch-1]({{ site.url }}{{ site.baseurl }}/assets/images/xlauch-2.jpg)
-![xlaunch-1]({{ site.url }}{{ site.baseurl }}/assets/images/xlauch-3.jpg)
-![xlaunch-1]({{ site.url }}{{ site.baseurl }}/assets/images/xlauch-4.jpg)
+![xlaunch-1]({{ site.url }}{{ site.baseurl }}/assets/images/xlauch-1.jpg){: .align-center}
+![xlaunch-1]({{ site.url }}{{ site.baseurl }}/assets/images/xlauch-2.jpg){: .align-center}
+![xlaunch-1]({{ site.url }}{{ site.baseurl }}/assets/images/xlauch-3.jpg){: .align-center}
+![xlaunch-1]({{ site.url }}{{ site.baseurl }}/assets/images/xlauch-4.jpg){: .align-center}
 
 ## Add env variable to PowerShell PROFILE
 
