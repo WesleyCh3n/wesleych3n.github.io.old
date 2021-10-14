@@ -90,3 +90,5 @@ note that I dig into PowerShell and Windows.
     Set-PSReadlineKeyHandler -Chord ctrl+a -Function BeginningOfLine
     ```
 
+- Tab Completion [Ref](https://github.com/bergmeister/posh-cli)
+
