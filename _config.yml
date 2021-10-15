@@ -53,7 +53,7 @@ plugins:
 author:
   name   : "WesleyCh3n"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "NTU BME MS. Programmer. ML Lover. Cat Lover."
+  bio    : "NTU BME MS. Programmer. ML Enthusiast. Cat Lover."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
