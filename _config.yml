@@ -55,18 +55,15 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "NTU BME MS. Programmer. ML Lover. Cat Lover."
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wesleych3n"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://wesleych3n.github.io"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/wesleych3n/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/wesleych3n"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-f"
-      url: "https://www.facebook.com/WesleyCh3n"
 
 footer:
   links:
