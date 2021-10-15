@@ -15,6 +15,7 @@ toc_icon: "box-open"
 ## Name Export
 
 - Export
+
 ```javascript
 export const Hello = () => {
   return <h1>Hello</h1>;
@@ -24,9 +25,11 @@ export const Goodbye = () => {
   return <h1>Goodbye</h1>;
 }
 ```
+
 We can export multiple components from a single file.
 
 - Import
+
 ```javascript
 import { Hello, Goodbye } from "./Greetings"
 // or
@@ -35,7 +38,9 @@ import * as Greetings from "./Greetings"
 ```
 
 ## Default Export
+
 - Export
+
 ```javascript
 const Hello = () => {
   return <h1>Hello</h1>;
@@ -43,9 +48,11 @@ const Hello = () => {
 
 export default Hello;
 ```
+
 only export one component per file;
 
 If you want multiple functions in a file
+
 ```javascript
 const fn1 = () => {}
 const fn2 = () => {}
