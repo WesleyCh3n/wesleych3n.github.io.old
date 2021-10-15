@@ -7,6 +7,7 @@ tags:
   - javascript
 toc: true
 toc_label: "Outline"
+toc_sticky: true
 toc_icon: "box-open"
 ---
 
