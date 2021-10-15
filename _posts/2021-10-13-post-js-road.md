@@ -10,7 +10,8 @@ toc_label: "Outline"
 toc_icon: "box-open"
 ---
 
-### 5 type
+## JavaScript Note
+## 5 type
 
 - Undefined
 - Null
@@ -19,7 +20,7 @@ toc_icon: "box-open"
 - Number
 Others r `Object`
 
-### 3 way create `Object`
+## 3 way create `Object`
 
 - Object literal
 ```javascript
@@ -74,7 +75,7 @@ immediately
         sum(3,5); // Error
         var sum = function(a, b) { return a + b; }
         ```
-### Variable Scope
+## Variable Scope
 
 - if no `var`, global variable
 - if `var`, function scope.
@@ -83,7 +84,7 @@ immediately
 - `let` use block scope, can't re-declare in one scope, no elevate
 - `const` => `read-only` variable
 
-### DOM Manipulations
+## DOM Manipulations
 - select DOM node/element. If DOM contain:
     ```html
     <div id="target"></div>
@@ -151,7 +152,7 @@ immediately
          <div class="myClass" onclick="clickHandler()">
         ```
 
-### Closer Look at Constructor Function
+## Closer Look at Constructor Function
 
 ```javascript
 // #1 Function call to a ref to an anonymous function
@@ -189,7 +190,7 @@ Each object has a *private property* which holds a link to another object called
     - `Object.keys(obj)` returns an array with all the own (not in the prototype chain) enumerable properties’ names (“keys”) of the object obj.
     - `for (var i in obj)` traverses all enumerable properties of an object and its prototype chain.
 
-### More on function
+## More on function
 
 - Arrow function (=>): is like `lambda` in python
     - Syntax:
@@ -212,7 +213,7 @@ Each object has a *private property* which holds a link to another object called
     ```javascript
     (() => console.log("hello world!"))()
     ```
-### More on Variable
+## More on Variable
 
 "const" defines “read-only” variables.  However, the properties inside a const object are NOT constrain
 
@@ -228,7 +229,7 @@ or
 array.forEach(i => console.log(i))
 ```
 
-### Usefule concept
+## Usefule concept
 ```javascript
 var arr = [3, 5, 7];
 arr.foo = 'hello';
