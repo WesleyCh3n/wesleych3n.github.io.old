@@ -87,7 +87,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-        provider: "facebook"
       share: true
       related: true
   # _pages
@@ -104,3 +103,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+comments:
+  provider: "facebook"
