@@ -9,6 +9,9 @@ toc: true
 toc_label: "Outline"
 toc_sticky: true
 toc_icon: "box-open"
+header:
+  teaser: ./assets/teasers/code-bg.png
+
 ---
 
 # Name Export vs Default Export

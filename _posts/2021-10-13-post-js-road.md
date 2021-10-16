@@ -8,6 +8,8 @@ tags:
 toc: true
 toc_label: "Outline"
 toc_icon: "box-open"
+header:
+  teaser: ./assets/teasers/code-bg.png
 ---
 
 ## JavaScript Note
