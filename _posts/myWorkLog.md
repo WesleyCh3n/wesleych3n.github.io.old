@@ -1,4 +1,3 @@
-
 ## 2021-10-07
 
 - Install Electron
@@ -87,3 +86,16 @@
 - [用 electron-builder 打包應用程式給其他人](https://ithelp.ithome.com.tw/articles/10234399)
 - [Building desktop applications with Electron - electron-builder](https://medium.com/@jamzi/building-desktop-applications-with-electron-electron-builder-47484193cbcc)
 - [x64 Developer PowerShell for VS 2019](https://developercommunity.visualstudio.com/t/x64-developer-powershell-for-vs-2019/943058)
+
+## 2021-10-18
+- Use wsl edit file, but use `npm` and `node` on windows host
+- Want to export class and able to use in ffi-napi
+    - Solve by using `virtual` as class inference and function wrapper.
+- Why `__dllexport`
+
+### Reference
+
+- [從DLL導出C ++類 (Exporting a C++ class from a DLL)](https://zh-tw.coderbridge.com/discussions/15a8be04e5a840d18c44789d0091f1e5)
+- [Why to use \__declspec(dllexport)? Seems to be working without it](https://stackoverflow.com/questions/1641172/why-to-use-declspecdllexport-seems-to-be-working-without-it)
+- [What's the return type of ffi when using a constructor function from c++](https://stackoverflow.com/questions/40556955/whats-the-return-type-of-ffi-when-using-a-constructor-function-from-c) I CAN'T reproduce his code
+- [ffi-napi common usage](https://github.com/node-ffi/node-ffi/wiki/Node-FFI-Tutorial#common-usage) Successful reproduce
