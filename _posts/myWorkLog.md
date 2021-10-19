@@ -99,3 +99,10 @@
 - [Why to use \__declspec(dllexport)? Seems to be working without it](https://stackoverflow.com/questions/1641172/why-to-use-declspecdllexport-seems-to-be-working-without-it)
 - [What's the return type of ffi when using a constructor function from c++](https://stackoverflow.com/questions/40556955/whats-the-return-type-of-ffi-when-using-a-constructor-function-from-c) I CAN'T reproduce his code
 - [ffi-napi common usage](https://github.com/node-ffi/node-ffi/wiki/Node-FFI-Tutorial#common-usage) Successful reproduce
+
+## 2021-10-19
+- wsl change default user:
+
+    ```
+    <DistributionName> config --default-user <Username>
+    ```
