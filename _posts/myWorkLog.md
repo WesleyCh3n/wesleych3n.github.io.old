@@ -131,3 +131,4 @@
     " remove that character
     :%s///g
     ```
+- Need to study about bootstrap a little bit
