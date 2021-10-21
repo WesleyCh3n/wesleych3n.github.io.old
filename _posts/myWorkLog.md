@@ -92,6 +92,7 @@
 - Want to export class and able to use in ffi-napi
     - Solve by using `virtual` as class inference and function wrapper.
 - Why `__dllexport`
+- `cl \LD mylib.cc`, `\D` argument pass defined args to cc. e.g. `\DDEBUG`
 
 ### Reference
 
@@ -122,3 +123,11 @@
     - Golang + Static react
 - SCD Helper
     - C++ builder...
+- vim convert dos to unix:
+
+    ```vim
+    " show  character
+    :e ++ff=unix
+    " remove that character
+    :%s///g
+    ```
