@@ -106,3 +106,19 @@
     ```
     <DistributionName> config --default-user <Username>
     ```
+
+## 2021-10-20
+- Install Manjaro (Happy day).
+- Assign server research
+    - Restful API
+    - Ngnix: load balance
+    - javascript
+    - python: flask
+
+## 2021-10-21
+- Restful API
+    - Golang!!
+    - library: gin, iris(MVC structure)
+    - Golang + Static react
+- SCD Helper
+    - C++ builder...
