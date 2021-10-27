@@ -141,3 +141,19 @@
 ### Reference
 - [How to scroll to bottom in react?](https://stackoverflow.com/questions/37620695/how-to-scroll-to-bottom-in-react)
 - [5 Way to Append Item to Array in JavaScript](https://www.samanthaming.com/tidbits/87-5-ways-to-append-item-to-array/)
+
+## 2021-10-27
+- PostgreSQL
+    - `\l`: list database
+    - `\c <dbname>`: use db
+    - `drop database <dbname>`
+    - `\d`: list table
+    - `\d <table_name>`: shown table detail
+    - `INSERT INTO TABLE_NAME (column1, column2, column3,...columnN) VALUES (value1, value2, value3,...valueN);`: insert query
+    - `SELECT column1, column2, columnN FROM table_name;`: select query
+
+- Redis to cache query result
+
+
+### Reference
+- [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/index.htm)
