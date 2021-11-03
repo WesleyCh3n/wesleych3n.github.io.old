@@ -157,3 +157,7 @@
 
 ### Reference
 - [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/index.htm)
+
+## 2021-11-03
+- learn how to use regex. Nice!
+- Boss tell me to learn about audio capture to create led mapping
