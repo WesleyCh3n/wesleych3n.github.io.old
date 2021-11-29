@@ -161,3 +161,10 @@
 ## 2021-11-03
 - learn how to use regex. Nice!
 - Boss tell me to learn about audio capture to create led mapping
+
+## 2021-11-29
+- Using typescript to create react app along with bootstrap
+    - `npx create-react-app my-app --template typescript`
+    - `yarn add @types/react-bootstrap @types/bootstrap@5.1.3`
+    - add `import 'bootstrap/dist/css/bootstrap.css';` to the start of `index.tsx`
+    - `yarn start`
