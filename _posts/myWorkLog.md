@@ -168,3 +168,8 @@
     - `yarn add @types/react-bootstrap @types/bootstrap@5.1.3`
     - add `import 'bootstrap/dist/css/bootstrap.css';` to the start of `index.tsx`
     - `yarn start`
+- Design long task rest api diagram
+    - tomorrow: try to use go to implement
+
+## 2021-11-30
+- Starting go test (practice TDD)
