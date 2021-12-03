@@ -76,7 +76,7 @@
 - Create basic electron app
 - Use `electron-builder` package electron app
 - msvs x64 for powershell!!
-- I think I need to start learning UI framewor...
+- I think I need to start learning UI framework...
 - *want to update my log with my github.io*
 
 ### Reference
@@ -173,3 +173,32 @@
 
 ## 2021-11-30
 - Starting go test (practice TDD)
+    - Hello, world
+    - Integers
+    - Iteration
+    - Arrays and slices
+    - Structs, methods & interfaces
+    - Pointers & errors
+    - Maps
+    - Dependency Injection
+
+## 2021-12-01
+- Golang TDD practice:
+    - Mocking
+    - Concurrency
+    - Select
+
+## 2021-12-02
+- rclone
+- marp custom theme
+- Golang TDD practice:
+    - reflection
+
+## 2021-12-03
+- Searching go tui lib: termui
+- Searching go web backend framework:
+    - gin vs fasthttp vs echo vs fiber
+    - probably go `fiber` + rest api + static react build
+- Golang TDD practice:
+    - reflection
+    - context
