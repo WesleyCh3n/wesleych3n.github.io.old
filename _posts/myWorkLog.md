@@ -146,6 +146,7 @@
 - PostgreSQL
     - `\l`: list database
     - `\c <dbname>`: use db
+    - `create database <dbname>`
     - `drop database <dbname>`
     - `\d`: list table
     - `\d <table_name>`: shown table detail
@@ -202,3 +203,6 @@
 - Golang TDD practice:
     - reflection
     - context
+
+## 2021-12-14
+- my ultimate nvim setup
