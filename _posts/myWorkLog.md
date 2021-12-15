@@ -206,3 +206,6 @@
 
 ## 2021-12-14
 - my ultimate nvim setup
+
+## 2021-12-15
+- bubble status line complete
